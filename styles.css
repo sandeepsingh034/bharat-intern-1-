@@ -1,0 +1,93 @@
+body {
+    background-color: skyblue; 
+    font-family: 'Helvetica', sans-serif;
+}
+
+.main {
+    padding: 20px;
+    font-family: 'Helvetica', sans-serif;
+    box-shadow: 5px 5px 7px 5px #100000;
+    background-color: skyblue;
+    background-image: url(modern-sports-car-speeds-through-dark-curve-generative-ai_188544-9136.avif); 
+}
+
+.main h2 {
+    font-size: 60px;
+    text-align: center;
+    color: yellow;
+    margin-bottom: 30px;
+    font-weight: bolder;
+
+}
+
+input, select {
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #c464f8; 
+    background-color: #f5f5f5; 
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color:rgb(235, 74, 101); 
+    border: none;
+    color: #ffffff; 
+    padding: 16px 32px;
+    margin: 20px 0; 
+    border-radius: 10px;
+    cursor: pointer; 
+}
+
+input[type=submit]:hover {
+    background-color: #7e0c95; 
+}
+
+/* Styled select */
+.styled-select {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #c464f8; 
+    background-color: #f5f5f5;
+}
+
+.styled-select select {
+    display: inline-block;
+    width: calc(100% - 40px);
+    height: 100%;
+    border: none;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 12px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.styled-select::after {
+    content: "\25BC";
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    pointer-events: none;
+    color: #690096; 
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+
+.styled-select:hover::after {
+    color: #7e0c95; 
+}
+
+.saumya{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100px;
+}
